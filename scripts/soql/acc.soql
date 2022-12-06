@@ -1,0 +1,12 @@
+//latest created 3 accounts
+SELECT Id, name, industry FROM Account order by createddate desc limit 3
+
+SELECT Id, name, industry, phone from account where phone!=null
+
+
+SELECT Id, name FROM 
+
+Select id, name, mailingcity from contact where Name like '%vi%'
+
+SELECT Id, Name, Priority__c, Status__c, Subject__c FROM Salesforce_Ticket__c where status__c != '' and priority__c in ('high', 'medium')
+
